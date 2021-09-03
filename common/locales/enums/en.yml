@@ -1516,6 +1516,27 @@ en:
       natc: No attempt to code
       not_applicable: Not applicable
       undifferentiated: Undifferentiated
+    note_index_item_type:
+      corporate_entity: Corporate Entity
+      family: Family
+      function: Function
+      genre_form: Genre / Form
+      geographic_name: Geographic Name
+      name: Name
+      occupation: Occupation
+      person: Person
+      subject: Subject
+      title: Title
+    note_rights_statement_act_type:
+      additional_information: Additional Information
+      expiration: Expiration
+      extension: Extension
+      permissions: Permissions
+      restrictions: Restrictions
+    note_rights_statement_type:
+      additional_information: Additional Information
+      materials: Materials
+      type_note: Type Note
     _note_types: &note_type_definitions  # yamllint disable-line rule:key-ordering
       abstract: Abstract
       accessrestrict: Conditions Governing Access
@@ -1566,27 +1587,6 @@ en:
       <<: *note_type_definitions
     note_singlepart_type:  # yamllint disable-line rule:key-ordering
       <<: *note_type_definitions
-    note_index_item_type:
-      corporate_entity: Corporate Entity
-      family: Family
-      function: Function
-      genre_form: Genre / Form
-      geographic_name: Geographic Name
-      name: Name
-      occupation: Occupation
-      person: Person
-      subject: Subject
-      title: Title
-    note_rights_statement_act_type:
-      additional_information: Additional Information
-      expiration: Expiration
-      extension: Extension
-      permissions: Permissions
-      restrictions: Restrictions
-    note_rights_statement_type:
-      additional_information: Additional Information
-      materials: Materials
-      type_note: Type Note
     place_role:
       assoc_country: Associated Country
       other_assoc: Other
